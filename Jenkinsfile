@@ -14,7 +14,6 @@ pipeline {
         stage('Install Stage') {
             steps {
                     bat 'terraform apply'
-                }
             }
         }
     }
